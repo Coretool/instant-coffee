@@ -1,7 +1,8 @@
 {
   "name": "instant-coffee",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.1",
+  "description": "on the fly compiler for js dialects ",
+  "keywords" : "coffee script compiler otf ",
   "main": "/executables/index.js",
   "preferGlobal": true,
   "bin": {
@@ -15,8 +16,7 @@
     "babel-preset-es2015": "^6.6.0"
   },
   "scripts": {
-    "test" : "instant test.coffee",
-    "preinstall" : "babel index.es -o index.js && echo finished preinstall"
+    "test" : "instant test.coffee"
   },
   "author": "John 'coretool' Green",
   "license": "MIT"
